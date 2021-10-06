@@ -4,10 +4,6 @@ body {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.is-large {
-
-}
-
 img.profile {
   width: 15rem;
   height: 15rem;
@@ -37,4 +33,31 @@ img.profile {
 
 .fa-twitch {
   color: #8552F6;
+}
+
+@media only screen
+    and (device-width: 390px)
+    and (device-height: 844px)
+    and (-webkit-device-pixel-ratio: 3) {
+
+  .icon-responsive {
+    font-size: 16vw;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+.icon-responsive {
+  font-size: 15vw;
+}
+
+}
+
+@media only screen and (max-width: 568px) {
+
+.icon-responsive {
+  font-size: 11vw;
+}
+
 }
