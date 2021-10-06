@@ -1,110 +1,44 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Yossi1114</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="Yossi1114">
-  <meta name="author" content="Yossi1114">
-
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css"> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/regular.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/solid.min.css">
-
+  <link rel="stylesheet" href="./css/bulma.min.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover" style="background-image:url('./assets/bg.jpg');">
+<body>
+  <div class="container is-fluid">
+    <div class="hero is-large">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-half is-centered">
+              <figure class="image">
+                <img src="./images/Yossi1114.png" class="profile is-rounded center">
+              </figure>
+            </div>
+            <div class="column is-half content block">
+              <h1 class="title is-1 text-center">Yossi1114</h1>
+              <p class="subtitle is-4 text-center"><i class="fas fa-pen-nib"></i> computer science / esports</p><hr>
+              <p>After 4 years of study in the United States, I am currently studying at a university somewhere in Greater Tokyo. Used to be part of a cryptocurrency dev team.</p><br>
+              <div class="columns is-mobile text-center">
+                <div class="column"><a href="https://twitter.com/MCPE_Yossi1114" target="_blank" rel="nofollow"><i class="fab fa-twitter-square fa-4x"></i></a></div>
+                <div class="column"><a href="https://github.com/Yossi1114" target="_blank" rel="nofollow"><i class="fab fa-github-square fa-4x"></i></a></div>
+                <div class="column"><a href="https://oncyber.io/exhibits/SDHvYYmDX3IX3MlarWm4" target="_blank" rel="nofollow"><i class="fas fa-infinity fa-4x"></i></a></div>
+                <div class="column"><a href="https://www.twitch.tv/yossi1114" target="_blank" rel="nofollow"><i class="fab fa-twitch fa-4x"></i></a></div>
+              </div>
 
-
-
-  <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
-    
-	<!--Main Col-->
-	<div id="profile" class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
-	
-
-		<div class="p-4 md:p-12 text-center lg:text-left">
-			<!-- Image for mobile view-->
-			<div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style="background-image: url('./assets/Yossi1114.png')"></div>
-			
-			<h1 class="text-3xl font-bold pt-8 lg:pt-0 font-mono">Yossi1114</h1>
-			<div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
-			<p class="pt-4 text-base font-bold flex items-center justify-center lg:justify-start font-mono"><i class="fas fa-pen-nib"></i>&nbsp; <b>computer science / esports industry</b></p>
-			<p class="pt-2 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start font-mono"><i class="fas fa-globe"></i>&nbsp; Tokyo, Japan</p>
-			<p class="pt-8 text-sm font-mono">After 4 years of study in the United States, I am currently studying at a university somewhere in Greater Tokyo. Used to be part of a cryptocurrency dev team.</p>
-
-			<!--<div class="pt-12 pb-8">
-				<button class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
-				  Get In Touch</i>
-				</button> 
-			</div>-->
-
-			<div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
-				<a class="link" href="https://twitter.com/MCPE_Yossi1114" data-tippy-content="@MCPE_Yossi1114" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
-				<a class="link" href="https://github.com/Yossi1114" data-tippy-content="@Yossi1114" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
-				<a class="link" href="https://oncyber.io/exhibits/SDHvYYmDX3IX3MlarWm4" data-tippy-content="@yossi1114" target="_blank"><i class="fas fa-infinity fa-3x"></i></a>
-				<a class="link" href="https://www.twitch.tv/yossi1114" data-tippy-content="yossi1114" target="_blank"><i class="fab fa-twitch fa-3x"></i></a>
-			</div>
-			
-			<!-- Use https://simpleicons.org/ to find the svg for your preferred product --> 
-		</div>
-
-	</div>
-	
-	<!--Img Col-->
-	<div class="w-full lg:w-2/5">
-		<!-- Big profile image for side bar (desktop) -->
-		<img src="./assets/Yossi1114.png" class="rounded-full ml-8">
-		
-	</div>
-	
-	
-	<!-- Pin to top right corner -->
-	  <div class="absolute top-0 right-0 h-12 w-18 p-4">
-		<button class="js-change-theme focus:outline-none">🌙</button>
-	  </div>
-
-</div>
-
-	<script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
-	<script src="https://unpkg.com/tippy.js@4"></script>
-	<script>
-		//Init tooltips
-		tippy('.link',{
-		  placement: 'bottom'
-		})
-
-		//Toggle mode
-		const toggle = document.querySelector('.js-change-theme');
-		const body = document.querySelector('body');
-		const profile = document.getElementById('profile');
-		
-		
-		toggle.addEventListener('click', () => {
-
-		  if (body.classList.contains('text-gray-900')) {
-			toggle.innerHTML = "☀️";
-			body.classList.remove('text-gray-900');
-			body.classList.add('text-gray-100');
-			profile.classList.remove('bg-white');
-			profile.classList.add('bg-gray-900');
-		  } else
-		  {
-			toggle.innerHTML = "🌙";
-			body.classList.remove('text-gray-100');
-			body.classList.add('text-gray-900');
-			profile.classList.remove('bg-gray-900');			
-			profile.classList.add('bg-white');
-			
-		  }
-		});
-		
-    </script>
-	
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js" integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/brands.js" integrity="sha384-xf4z6gHzXeY6YwFJm8AKcD9SSq8TsfF4+UJj1JxzwQHk+VNATxkknGEzmdtYV0w1" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js" integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO" crossorigin="anonymous"></script>
 </body>
 
 </html>

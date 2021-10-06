@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.is-large {
+
+}
+
+img.profile {
+  width: 15rem;
+  height: 15rem;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fa-twitter-square {
+  color: #1DA1F2;
+}
+
+.fa-github-square {
+  color: #211F1F;
+}
+
+.fa-infinity {
+  color: #161616;
+}
+
+.fa-twitch {
+  color: #8552F6;
+}
