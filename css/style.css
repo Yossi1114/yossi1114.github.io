@@ -35,6 +35,10 @@ img.profile {
   color: #8552F6;
 }
 
+.fa-keybase {
+  color: #ff6f21;
+}
+
 @media only screen
     and (device-width: 390px)
     and (device-height: 844px)
