@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/yossi1114
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://yossi1114.github.io
+  * I am yossi1114 (https://keybase.io/yossi1114) on keybase.
+  * I have a public key ASBzyE3r_pFjljVvyhUot6dtIW1jeAPqZdiANEgN-ldLlgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204dafee66cae5f547c560977df34165156dabad70fc0e24451a7a555c5dca68320a",
+      "host": "keybase.io",
+      "kid": "012073c84debfe916396356fca1528b7a76d216d637803ea65d88034480dfa574b960a",
+      "uid": "53385b5e60ae1ea2f48c7b70fa501219",
+      "username": "yossi1114"
+    },
+    "merkle_root": {
+      "ctime": 1633768554,
+      "hash": "171f176ed885edb150441823c81667bf93c60c20a387faa5b0834d4b43e2459da2cff6bfc0931c34e1c6fda2c16f6f0ab96d7f07c8e8ce2115bcf958a151c837",
+      "hash_meta": "67bad51ab4046c47837b0f9e48d62ef0827ad6445e9cc0c7d0cd9da1f4220172",
+      "seqno": 20948226
+    },
+    "service": {
+      "entropy": "qLWs/7jCrvHDKr+SttyL8c5B",
+      "hostname": "yossi1114.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.8.0"
+  },
+  "ctime": 1633768617,
+  "expire_in": 504576000,
+  "prev": "7ffc314088e9999ce769a7fd67b3611271df2744f76dbf657823aceacb4a04d3",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgc8hN6/6RY5Y1b8oVKLenbSFtY3gD6mXYgDRIDfpXS5YKp3BheWxvYWTESpcCCcQgf/wxQIjpmZznaaf9Z7NhEnHfJ0T3bb9leCOs6stKBNPEIP6azDk/jME7QCyMlLeyM8uCqBNYEwI9ptNUtnKY3HHkAgHCo3NpZ8RAftCwr5Jzh+wtg5P+mJ36Dr+ZrxR0PwFTV80Ffv0VeRmu7aOahPHPs4Y92qg0bXOuhijxnu7y8skc7D88dvLJAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKLNkQbmktvDjwWgd/d5hz5WPP648KxQkHVWp/vc0BQZo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/yossi1114
+
+==================================================================
